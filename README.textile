@@ -41,6 +41,8 @@ h2. Note
 
 This plugin shows users raw URLs of Subversion repository, so if you use it in public network, please be careful about access rights management of Subversion repository.
 
+This is an attempt to make it work with Redmine 4.2+
+
 h2. License
 
 You can use this plugin under the "GPLv3":http://www.gnu.org/licenses/gpl-3.0.txt .
