@@ -8,8 +8,8 @@ module AddSubversionLinksApplicationHelperPatch
     base.send(:include, InstanceMethod)
 
     base.class_eval do
-      alias_method_chain :parse_redmine_links, :add_subversion_links
-      alias_method_chain :link_to_revision, :add_subversion_links
+      alias_method :parse_redmine_links, :add_subversion_links
+      alias_method :link_to_revision, :add_subversion_links
 
       # Note:
       # Redmine::Hook::ViewListener includes ApplicationHelper
